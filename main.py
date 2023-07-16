@@ -17,7 +17,7 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 
 # Load the clean data set
-df = pd.read_csv(r"C:\Users\wanji\Desktop\clean_data.csv")
+df = pd.read_csv(r"C:\Users\wanji\OneDrive\Desktop\Diabetic Admissio.py\clean_data.csv")
 
 # Separate features and target
 X = df.drop('readmitted', axis=1)
